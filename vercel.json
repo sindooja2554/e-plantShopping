@@ -1,6 +1,5 @@
 {
     "rewrites": [
-      { "source": "/shoppingreact/(.*)", "destination": "/shoppingreact/$1" },
-      { "source": "/(.*)", "destination": "/shoppingreact/index.html" }
+      { "source": "/shoppingreact/:path*", "destination": "/:path*" }
     ]
 }
